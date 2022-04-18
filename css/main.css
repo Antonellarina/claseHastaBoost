@@ -29,6 +29,12 @@ header nav ul li{
     text-decoration: underline;
 }
 
+/*estilos p*/
+.estilos-p{
+    font-size: 1rem;
+    text-align: center;
+}
+
 /*estilos de card*/ 
 
 .estilos-card{
@@ -36,17 +42,21 @@ header nav ul li{
     background-color: rgb(200, 248, 248);
 }
 
-/*estilos p*/
-.estilos-p{
-    font-size: 1.1rem;
-    text-align: center;
+.card-title{
+    font-size: 1.2rem;
 }
+
+.card-text{
+    font-size: 0.8rem;
+}
+
 /* estilos botones. la class letter-spacing me da espacio entre las letras de una palabra*/
 .btn-estilos{
     background-color:  rgb(245, 214, 179);
     box-shadow: 2px 3px black;
     font-weight: bold;
     letter-spacing: 0.3rem;
+    font-size: 0.8rem;
 }
 
 .btn-estilos:hover{
@@ -61,4 +71,5 @@ header nav ul li{
 
 footer{
     text-align: center;
+    font-size: small;
 }
