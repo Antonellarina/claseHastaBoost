@@ -1,0 +1,64 @@
+/* estilos generales*/
+body{
+    background-color: rgb(245, 214, 179);
+}
+
+/* estilos del header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(200, 248, 248);
+}
+header h1{
+    text-align: center;
+}
+
+/* display flex trabaja en row entonces automáticamente m acomodo el menú uno al lado del otro*/
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    /*m saca los puntos*/
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+/*estilos de card*/ 
+
+.estilos-card{
+    margin: 1rem;
+    background-color: rgb(200, 248, 248);
+}
+
+/*estilos p*/
+.estilos-p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+/* estilos botones. la class letter-spacing me da espacio entre las letras de una palabra*/
+.btn-estilos{
+    background-color:  rgb(245, 214, 179);
+    box-shadow: 2px 3px black;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.btn-estilos:hover{
+    transform: scale(1.1);
+}
+
+.card-body{
+    text-align: center;
+    /*ubica en todo el ancho del contenedor*/
+    justify-content: araound;
+}
+
+footer{
+    text-align: center;
+}
