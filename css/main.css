@@ -29,6 +29,11 @@ header nav ul li{
     text-decoration: underline;
 }
 
+header nav ul li:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 214, 179);
+    text-decoration: none;
+}
 /*estilos p*/
 .estilos-p{
     font-size: 1rem;
